@@ -55,11 +55,15 @@ body{
 }
 
 .nervous-text { 
-    font-family: "Gameplay", cursive, sans-serif;
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     animation: movePanic 0.05s linear infinite;
     position: fixed;
     
-    transform: translate(10%, 100%);
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 15%;
     color: aqua;
     font-size: 200px;
     padding: 20px;
@@ -74,12 +78,20 @@ body{
 
 .notyet-text{
     
-    font-family: "Gameplay", cursive, sans-serif;
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     text-align: center;
     color: rgb(0, 194, 194);
     font-size: 50px;
-    padding: 20px;
     margin-top: 1200px;
     text-decoration: none;
     
 }
+
+.monoton-regular {
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
